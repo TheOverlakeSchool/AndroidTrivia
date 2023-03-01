@@ -1,9 +1,8 @@
-AndroidTriviaFragment - solution code
+AndroidTrivia
 =====================================
 
-This app is the solution code for Android Kotlin Fundamentals codelab 3.1:
-Create and add a fragment. The app is also the starter code for Android Kotlin
-Fundamentals codelab 3.2: Define navigation paths.
+This app is also the starter code for Android Kotlin Fundamentals codelab 3.2: 
+Define navigation paths.
 
 Introduction
 ------------
@@ -16,14 +15,13 @@ The app navigates using buttons, the app bar, and a navigation drawer. Because
 students haven't yet learned about saving data or the Android lifecycle, the app
 tries to eliminate bugs caused by configuration changes.
 
-Prerequisites
+Task
 -------------
 
-You need to know:
-- The fundamentals of Kotlin.
-- How to create basic Android apps in Kotlin.
-- How to open, build, and run apps with Android Studio.
-- How to work with layouts.
+Kotlin and Java are very similar, and can work interdependently. 
+
+1. Refactor <code>MainActivity.kt</code> and <code>TitleFragment.kt</code> to Java.
+2. Wire up the game fragments using the Navigation components. You can ignore <code>AboutFragment.kt</code> and <code>RulesFragment.kt</code> for now.
 
 Getting started
 ---------------
